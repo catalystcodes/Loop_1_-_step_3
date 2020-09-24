@@ -31,5 +31,25 @@ p {
 }
 
 .icon {
-    margin-left: 20rem;
+    margin-left: 15rem;
+}
+
+.head1 {
+    font-size: x-large;
+    color: #020405;
+}
+
+h4 {
+    color: #b1a288;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.head2 {
+    font-weight: 800;
+    color: #a1a29e;
 }
