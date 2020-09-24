@@ -53,3 +53,9 @@ h1 {
     font-weight: 800;
     color: #a1a29e;
 }
+
+.bic {
+    margin: 1vmax auto;
+    width: 35rem;
+    margin-bottom: 50rem;
+}
