@@ -39,12 +39,18 @@ p {
 }
 
 #logo {
-    border: 1px solid red;
+    border: 1px solid #a1a29e;
     border-radius: 50px;
     height: 2rem;
     width: 2rem;
     display: flex;
     justify-content: center;
+}
+
+#logo:hover {
+    background-color: #a1a29e;
+    transform: rotate(360deg);
+    transition: 1s;
 }
 
 .head1 {
