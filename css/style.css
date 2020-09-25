@@ -1,17 +1,16 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: greenyellow;
+    background-color: #16a085;
 }
 
 #container {
     margin: 10vmax auto;
     background-color: white;
-    /* margin-top: 11rem; */
-    /* margin-left: 29rem; */
+    max-width: 100%;
     border-radius: 5px;
-    /* margin-right: 10rem; */
     height: 25rem;
     width: 35rem;
+    position: relative;
 }
 
 #word {
@@ -32,6 +31,7 @@ p {
 
 .icon {
     margin-left: 15rem;
+    border: yellowgreen 50px;
 }
 
 .head1 {
@@ -54,8 +54,12 @@ h1 {
     color: #a1a29e;
 }
 
-.bic {
-    margin: 1vmax auto;
-    width: 35rem;
-    margin-bottom: 50rem;
+#bic {
+    background-image: url(../media/bicycle.png);
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    background-size: cover;
+    left: 0;
+    top: 40%;
 }
