@@ -50,7 +50,8 @@ p {
 #logo:hover {
     background-color: #a1a29e;
     transform: rotate(360deg);
-    transition: 1s;
+    transition: 2s;
+    /* transform: scale(2); */
 }
 
 .head1 {
